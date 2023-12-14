@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>home page</title>
+  </head>
+  <body>
+    <header>
+        <img src="about.jpg" alt="TokyoTales Banner" class="banner">
+    </header
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/">
+            <img
+              src="tokyotales-high-resolution-logo-removebg-preview.png"
+              width="100"
+              height="100"
+              alt=" Logo"
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Courses
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown1" class="dropdown">
+                  <ul role="menu">
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="courses.html" target="_blank">
+                        <img src="beg.webp.crdownload" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title"
+                            >Beginner</span
+                          >
+                          <p>Start your Japanese journey with foundational skills and essential concepts.</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#courses.html" target="_blank">
+                        <img src="inter.webp.crdownload" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title"
+                            >Intermediate</span
+                          >
+                          <p>Advance your proficiency with complex grammar, expanded vocabulary, and practical communication</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#courses.html" target="_blank">
+                        <img src="advancement.png.crdownload" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title">Advanced</span>
+                          <p>Master Japanese with advanced grammar, cultural insights, and fluency in writing and speaking.</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-end">
+          <div class="right-container">
+            <form class="search" role="search">
+              <input type="search" name="search" placeholder="Search" />
+              <i class="bx bx-search" aria-hidden="true"></i>
+            </form>
+           <a href="login.html" target="_blank"><button class="btn btn-primary">Login/signup</button></a>
+          </div>
+
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section>
+        <h2>Our Palette of Learning</h2>
+        <p>Unlock the door to language exploration with Tokyo Tales' dynamic and vibrant curriculum...</p>
+      </section>
+    
+      <section>
+        <h2>Connecting Cultures, One Lesson at a Time</h2>
+        <p>At Tokyo Tales, we transcend language to create bridges between cultures...</p>
+      </section>
+    
+      <section>
+        <h2>Innovative Learning Spaces</h2>
+        <p>Experience language like never before in our innovative virtual classrooms...</p>
+      </section>
+    
+      <section>
+        <h2>Passionate Instructors, Personalized Guidance</h2>
+        <p>Meet the heartbeat of Tokyo Tales - our team of passionate instructors...</p>
+      </section>
+    
+      <section>
+        <h2>Funky Colors, Endless Possibilities</h2>
+        <p>Our website is a visual feast, alive with funky colors that mirror the energy and excitement of Tokyo Tales...</p>
+      </section>
+    
+      <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+          <img src="jatin.png" alt="Team Member 1">
+          <h3>Jatin Singh</h3>
+          <p>Team Captain</p>
+        </div>
+        <div class="team-member">
+            <img src="Iqra.png" alt="Team Member 1">
+            <h3>Iqra Siddique</h3>
+            <p>Language Enthusiast</p>
+          </div>
+          <div class="team-member">
+            <img src="shreya.png" alt="Team Member 1">
+            <h3>Shreya Mohane</h3>
+            <p>Language Enthusiast</p>
+          </div>
+        <!-- Add more team members as needed -->
+      </section>
+    
+      <section class="call-to-action">
+        <h2>Call to Action</h2>
+        <p>Ready to embark on your Tokyo Tales adventure? Explore our courses, join our vibrant community...</p>
+        <a href="#" class="cta-button">Start Your Journey</a>
+      </section>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-12">
+                <p style="color: black;">Terms of use | Privacy policy</p>
+            </div>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+    
+  </body>
+</html>
